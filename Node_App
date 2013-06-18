@@ -1,0 +1,27 @@
+Node App
+
+1. Web Server
+	a. skapa server-objekt
+	b. lyssnar på port X
+
+2. Routing
+	a. skapa route-objekt inkl. route-funktion
+	b. initiera server-objekt med en route-funktion
+
+
+3. Request Handling
+	a. skapa request handlers
+	b. passa en request till rätt request handler - via route
+
+
+------
+
+Request Data Handling (hantera inkommande data)
+	tips: skicka med data till request-handlern
+View Logic (hantera content)
+	På enklaste sätt (här skulle vi kunna använda templating engines)
+Upload Handling (hantera fil-uppladdning)
+	tips: Använd er av standardbibliotek + ramverk för fil-hantering, etc.
+		...fs
+		...formidable
+		...querystring
